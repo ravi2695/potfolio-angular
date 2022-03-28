@@ -1,0 +1,16 @@
+
+  .cover {
+    object-fit: cover;
+    height: 50%;
+    border: 1px solid whitesmoke;
+    border-width: 0.3ch;
+    right: 35%;
+    bottom: 10%;    
+    margin-left: 5cm;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+  }
+
+  
