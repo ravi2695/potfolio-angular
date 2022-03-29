@@ -21,7 +21,7 @@ import { environment } from '../../../environments/environment';
     ngOnInit() {
        }
        onSubmit(name, subject, email, message) {
-          this.http.post('http://localhost:8080/contactData',
+          this.http.post('https://springboot-portfolio.herokuapp.com/contactData',
             { name: name, subject: subject, email: email, message: message },
             {responseType: 'text'}).subscribe(
               response => {
